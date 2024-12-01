@@ -10,6 +10,7 @@ from models import db, Game, Review, User
 
 fake = Faker()
 
+
 with app.app_context():
 
     Review.query.delete()
